@@ -1,0 +1,123 @@
+.authenticationContainer{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.leftSide{
+    width: 50%;
+    background-color: var(--primary_black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide{
+    width: 50%;
+    background-color: var(--primary_green);
+}
+
+.welcome-text{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+.welcome-text h1{
+    color: white;
+}
+
+.welcome-text p{
+    margin: 5px 0;
+    color: rgb(226, 226, 226);
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.leftSide-container{
+    width: 50%;
+    height: 70%;
+}
+
+.authentication-button{
+    border: unset;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.leftSide-container a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+
+.text {
+    color: rgb(226, 226, 226);
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fieldError {
+    color: red;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.noFieldError{
+    color: transparent;
+    margin: 20px 0;
+}
+
+.input-button-fields {
+    margin: 3rem 0;
+}
+
+.registration-step-container {
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.registration-step-container .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.registration-step-container .header-container p{
+    color: var(--primary_green);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.step-icon {
+    height: min-content;
+    background-color: white;
+    color: var(--primary_green);
+    font-weight: bold;
+    font-size: 13px;
+    width: 15%;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+}
+
+.authentication-button-alternate{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+

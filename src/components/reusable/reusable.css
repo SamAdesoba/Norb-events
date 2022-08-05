@@ -1,0 +1,83 @@
+.input-container{
+    height: 50px;
+    border: 1px solid var(--primary_green);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 10px;
+
+}
+
+.label-container{
+    background-color: white;
+    height: 20px;
+    min-width: 65px;
+    padding: 0 5px;
+    border-radius: 4px;
+    position: absolute;
+    left: 18px;
+    top: -9px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-container-label {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.input-container input{
+    height: auto;
+    border: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+
+}
+
+.input-container input:focus-visible{
+    outline: none;
+    
+}
+
+.input-container:focus-within{
+    border: 2px solid white;
+    
+}
+
+.input-container:focus-within > .label-container{
+    background-color: var(--primary_green);
+    
+}
+
+.input-container svg{
+    height: 15px;
+}
+
+.fieldError{
+    color: red;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.noFieldError{
+    color: transparent;
+    margin: 10px 0;
+}
+
+.input-container img{
+    height: 16px;
+}
+
+.input-error-container {
+    margin: 10px 0;
+}
+

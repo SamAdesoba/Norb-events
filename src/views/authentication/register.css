@@ -1,0 +1,76 @@
+.registerContainer{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.leftSide{
+    width: 50%;
+    background-color: var(--primary_black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide{
+    width: 50%;
+    background-color: blue;
+}
+
+.welcome-text{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+.text {
+    color: rgb(226, 226, 226);
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.welcome-text h1{
+    color: white;
+}
+
+
+.leftSide-container{
+    width: 50%;
+    height: 90%;
+}
+
+.input-button-fields button{
+    border: unset;
+    background-color: var(--primary_green);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 350px;
+    height: 50px;
+}
+
+.leftSide-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+
+.fieldError {
+    color: red;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.noFieldError{
+    color: transparent;
+    margin: 20px 0;
+}
+
+.input-button-fields {
+    margin: 3rem 0;
+}
+
