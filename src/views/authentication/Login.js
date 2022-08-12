@@ -4,6 +4,7 @@ import passwordIcon from "../../assets/password.svg"
 import "./authentication.css"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import axios from "axios"
 
 
 
@@ -28,7 +29,11 @@ const Login = () => {
 
 
     const handleClick = () => {
-        console.log(userInput)
+        axios.get(`http://localhost:3004/accounts/?email=${userInput["email"]}`).
+        then((result) => {
+            result.data[0].password === userInput["password"] && navigate("/dashboard")
+        }).
+        catch((error) => console.log(error))
     }
 
     const checkIfFiedIsEmpty = (e) => {

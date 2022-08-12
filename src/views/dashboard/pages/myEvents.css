@@ -1,0 +1,28 @@
+.my-events-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+.my-events-header > button{
+    background-color: var(--primary_green);
+    border: unset;
+    padding: 12px 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.my-events-header-filter > input {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+}
+
+.my-events-container{
+    padding: 20px;
+    border-radius: 10px;
+}

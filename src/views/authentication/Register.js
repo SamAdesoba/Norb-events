@@ -5,6 +5,7 @@ import "./authentication.css"
 import { useState } from "react"
 import StepContainer from "../../components/authentication/register/StepContainer"
 import {useNavigate} from "react-router-dom"
+import axios from "axios"
 
 
 
@@ -36,8 +37,11 @@ const Register = () => {
 
 
     const handleClick = () => {
-        console.log(userInput)
-        // navigate("/login")
+        // setLoading(true)
+        axios.post("http://localhost:3004/accounts/", userInput).
+        then((data) => console.log(data)).
+        catch((error) => console.log(error))
+        // finally(()=>setLooading(false))
     }
 
     const checkIfFiedIsEmpty = (e) => {

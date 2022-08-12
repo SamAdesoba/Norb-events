@@ -1,0 +1,50 @@
+{
+  "accounts": [
+    {
+      "firstName": "Adesoba",
+      "lastName": "Samson",
+      "email": "adesobasamson@gmail.com",
+      "phoneNumber": "07068038660",
+      "password": "a",
+      "confirmPassword": "a",
+      "id": 1
+    },
+    {
+      "firstName": "a",
+      "lastName": "s",
+      "email": "d",
+      "phoneNumber": "w",
+      "password": "a",
+      "confirmPassword": "a",
+      "id": 2
+    }
+  ],
+  "events": [
+    {
+      "id" : 1,
+      "date_created" : "2015-12-23",
+      "date_updated" : "2015-12-23",
+      "locatiom" : "",
+      "venue" : "",
+      "stop_time" : "",
+      "start_time" : "",
+      "event_theme": "",
+      "description" : "",
+      "event_category" : "",
+      "event_date" : "",
+      "user" : "",
+      "host" : "",
+      "guestS" : [],
+      "attendees" : [],
+      "event_banner" : "",
+      "event_image" : "",
+      "sponsors" : [],
+      "ticket_categories" : "",
+      "ticket_fee": "",
+      "event_team" : [],
+      "event_dress_code" : "",
+      "number_of_seats": "",
+      "availabe-tickets": ""
+    }
+  ]
+}
