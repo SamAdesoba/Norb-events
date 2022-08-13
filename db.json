@@ -46,5 +46,19 @@
       "number_of_seats": "",
       "availabe-tickets": ""
     }
+  ],
+  "fakeEvents": [
+    {
+      "title": "Alakija",
+      "description": "today is the day that the Lord has made"
+    },
+    {
+      "title": "Norbs",
+      "description": "Get together Landmark beach"
+    },
+    {
+      "title": "Ujay",
+      "description": "Always on point event"
+    }
   ]
 }
