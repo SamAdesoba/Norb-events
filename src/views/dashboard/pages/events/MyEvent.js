@@ -7,7 +7,7 @@ const MyEvent = ({event}) => {
         <div className="image-container" 
         style={{
             backgroundImage :
-                'url(https://images.pexels.com/photos/10402422/pexels-photo-10402422.jpeg?cs=srgb&dl=pexels-wendel-moretti-10402422.jpg&fm=jpg)'
+                'url(https://i.pinimg.com/736x/37/e1/39/37e139968a0c926a155fc2c2f350df8b--rihanna-bikini-august-.jpg)'
         }}>
         </div>
         <div className="event-details">
