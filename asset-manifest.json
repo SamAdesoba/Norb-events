@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Norb-events/static/css/main.6322624f.css",
+    "main.js": "/Norb-events/static/js/main.6345e28d.js",
+    "index.html": "/Norb-events/index.html",
+    "static/media/email.svg": "/Norb-events/static/media/email.50be5c3a83ff83ee6dd62377fca001ab.svg",
+    "static/media/password.svg": "/Norb-events/static/media/password.a28fe1152dae1dcd671122a821c1b1a9.svg",
+    "main.6322624f.css.map": "/Norb-events/static/css/main.6322624f.css.map",
+    "main.6345e28d.js.map": "/Norb-events/static/js/main.6345e28d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6322624f.css",
+    "static/js/main.6345e28d.js"
+  ]
+}
